@@ -223,7 +223,7 @@ with iface:
     """
     )
     with gr.Group():
-        with gr.Box():
+        with gr.Blocks():
             ############# Input
             textbox = gr.Textbox(
                 value="A forest of wind chimes singing a soothing melody in the breeze.",
